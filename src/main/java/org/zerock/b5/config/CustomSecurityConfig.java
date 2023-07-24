@@ -33,7 +33,7 @@ public class CustomSecurityConfig {
         log.info("-----------------------configuration---------------------");
 
 
-        // Login 설정을 커스텀하겠다.
+        // Login 설정을 커스텀
         http.formLogin(Customizer.withDefaults());
 
         // Login이 안되면 페이지 못넘어가게 막고 다시 Login창으로 보내는 코드
